@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="76b3352e2c294c9a872d814be6cb5416" Name="Diagram1">
+        <EntityTypeShape EntityType="EcommerceWebsiteDatabseModel.Cart" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceWebsiteDatabseModel.Order" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceWebsiteDatabseModel.Product" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceWebsiteDatabseModel.User" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="EcommerceWebsiteDatabseModel.FK_Carts_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceWebsiteDatabseModel.FK_Carts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceWebsiteDatabseModel.FK_Orders_Orders" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
